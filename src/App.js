@@ -15,13 +15,13 @@ class App extends Component {
     };
   }
 
-  // componentDidMount = async () => {
-  //   const { getRandom } = this.props;
-  //   const response = await getRandom();
-  //   this.setState({
-  //     meal: response.payload
-  //   });
-  // }
+  componentDidMount = async () => {
+    const { getRandom } = this.props;
+    const response = await getRandom();
+    this.setState({
+      meal: response.payload
+    });
+  }
 
   getRandomMeal = async () => {
     const { getRandom } = this.props;

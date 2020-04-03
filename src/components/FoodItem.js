@@ -21,7 +21,7 @@ const FoodItem = ({ name, category, thumbnail, videoUrl, ingredients, source, ta
       Food source: 
         <a href={source}>{source}</a>
       </div>
-      <div>
+      {/* <div>
         <iframe
           width="150px"
           height="100px"
@@ -30,7 +30,7 @@ const FoodItem = ({ name, category, thumbnail, videoUrl, ingredients, source, ta
           allowFullScreen
         >
         </iframe>
-      </div>
+      </div> */}
     </div>
   );
 };
